@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"/>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <style>
+        body{
+            background-color: white;  
+        }
+        .bg{
+            background-image: url(/public/assets/Fotos/imgFormulario/ilustración\ inicia\ sesión.jpg);
+            background-position: center center ;
+        }
+    </style>
+    <title>Entrar</title>
+</head>
+<body>
+    <div class="container w-75 mt-5 rounded shadow">
+       <div class="row aling-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6"></div>
+                <div class="col p-5 rounded-end">
+                <div class="text-end">
+                <a href="Index.html">
+                    <img src="/public/assets/Fotos/Logo.png" width="48"alt="Logo Suto">
+                </a>        
+                </div>
+        <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+            <form action="#">
+                <div class="mb-4">
+                    <label for="email" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" name="email">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" name="password">
+                </div>
+                <div class="mb-4 form-check">
+                    <input type="checkbox" name="connected" class="form-check-input">
+                    <label for="connected" class="form-check">Recuerdame</label>
+                </div>
+                <div class="my-3">
+                    <span>No tienes cuenta? <a href="#">Registrate</a> </span><br>
+                    <span><a href="#">Recuperar contraseña</a></span>
+                </div>
+
+                <div class="divd-grid">
+                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                </div>
+            </form>
+        </div>
+    </div>
+   </div>
+<script src="/public/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

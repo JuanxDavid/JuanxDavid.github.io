@@ -1,0 +1,32 @@
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 280px) {
+    @content;
+  }
+}
+@media(max-width:600px){
+  .column{
+    flex: 100%;
+  }
+}
+@media(max-width:800px){
+  .column{
+    flex: 50%;
+  }
+  }
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
