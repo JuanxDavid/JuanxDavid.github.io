@@ -76,3 +76,12 @@
     }
   }
 }
+@media screen and (max-width:858px) and (orientation: landscape){
+  .navbarMenu li{
+    margin: 5px 0 0 0;
+  }
+  .navbarMenu{
+    overflow: scroll;
+    height: calc(100% - 65px);
+  }
+}
